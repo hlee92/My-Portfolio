@@ -10,10 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-
 }
-
-
 
 .navbar {
     width: 85%;
@@ -29,7 +26,6 @@
     margin-left: 45px;
     position: relative;
     left: 550px;
-    
 }
 
 .navbar ul li a {
@@ -37,7 +33,6 @@
     color: white;
     text-transform: uppercase;
     font-size: 18px;
-    
 }
 
 .navbar ul li::after {
@@ -77,7 +72,6 @@
     bottom: 165px;
     font-size: 90px;
     color: rgb(97, 160, 243);
-    
 }
 
 .content h3 {
