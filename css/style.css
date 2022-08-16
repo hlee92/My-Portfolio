@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:'Courier New', Courier, monospace
+  font-family: "Courier New", Courier, monospace;
 }
 
 .bg {
-    background: url(../images/background3.jpg);
+  background: url(../images/background3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,77 +13,106 @@
 }
 
 .navbar {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    justify-content: space-between;
-    text-align: center;
+  width: 85%;
+  margin: auto;
+  padding: 25px 0;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 45px;
-    position: relative;
-    left: 550px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 45px;
+  position: relative;
+  left: 550px;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 .navbar ul li::after {
-    content: '';
-    height: 3px;
-    width: 0%;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -7px;
-    transition: 0.6s;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  transition: 0.6s;
 }
 
 .navbar ul li:hover::after {
-    width: 100%
+  width: 100%;
 }
 
 .content {
-    color: white;
-    text-transform: uppercase;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 
 .content h2 {
-    position: relative;
-    bottom: 190px;
-    font-size: 30px;
-    color: rgb(243, 243, 160)
+  position: relative;
+  bottom: 190px;
+  font-size: 30px;
+  color: rgb(243, 243, 160);
 }
 
 .content h1 {
-    position: relative;
-    bottom: 165px;
-    font-size: 90px;
-    color: rgb(97, 160, 243);
+  position: relative;
+  bottom: 165px;
+  font-size: 90px;
+  color: rgb(97, 160, 243);
 }
 
 .content h3 {
-    position: relative;
-    bottom: 150px;
-    font-size: 17px;
-    color: rgb(90, 166, 90);
+  position: relative;
+  bottom: 150px;
+  font-size: 17px;
+  color: rgb(90, 166, 90);
 }
 
 .content h4 {
-    position: relative;
-    top: 100px;
-    color: rgb(245, 48, 48);
-    font-size: 20px;
+  position: relative;
+  top: 90px;
+  color: rgb(245, 48, 48);
+  font-size: 25px;
+}
+
+.projects {
+  position: relative;
+  top: 500px;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  display: inline-block;
+}
+
+.projectlinks ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+  left: 65px;
+  top: 60px;
+  
+}
+
+.projectlinks ul li a {
+  text-decoration: none;
+  color: darkgray;
+  text-transform: uppercase;
+  font-size: 18px;
+
+  
 }
