@@ -15,7 +15,7 @@
 .navbar {
   width: 85%;
   margin: auto;
-  padding: 25px 0;
+  padding: 2em 0;
   justify-content: space-between;
   text-align: center;
 }
@@ -23,26 +23,26 @@
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 45px;
+  margin-left: 3em;
   position: relative;
-  left: 475px;
+  left: 29em;
 }
 
 .navbar ul li a {
   text-decoration: none;
   color: white;
   text-transform: lowercase;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 .navbar ul li::after {
   content: "";
-  height: 3px;
+  height: 0.1em;
   width: 0%;
   background: white;
   position: absolute;
   left: 0;
-  bottom: -7px;
+  bottom: -0.5em;
   transition: 0.6s;
 }
 
@@ -62,42 +62,42 @@
 
 .content h2 {
   position: relative;
-  bottom: 190px;
-  font-size: 30px;
+  bottom: 7.5em;
+  font-size: 26px;
   color: rgb(243, 243, 160);
 }
 
 .content h1 {
   position: relative;
-  bottom: 170px;
-  font-size: 90px;
+  bottom: 2.1em;
+  font-size: 5.5em;
   color: rgb(97, 160, 243);
 }
 
 .content h3 {
   position: relative;
-  bottom: 160px;
-  font-size: 17px;
+  bottom: 9.5em;
+  font-size: 1.1em;
   color: rgb(90, 166, 90);
 }
 
 .projecttitle {
   position: relative;
-  top: 470px;
+  top: 19em;
   width: 85%;
   margin: auto;
   justify-content: space-between;
   text-align: center;
   display: inline-block;
-  left: 110px;
+  left: 5em;
   color: rgb(241, 53, 53);
   text-transform: lowercase;
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .projects {
   position: relative;
-  top: 480px;
+  top: 30em;
   width: 85%;
   margin: auto;
   justify-content: space-between;
@@ -108,10 +108,10 @@
 .projectlinks ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 10em;
   position: relative;
-  left: 65px;
-  top: 35px;
+  left: 3.5em;
+  top: 2em;
   
 }
 
@@ -119,18 +119,18 @@
   text-decoration: none;
   color: darkgray;
   text-transform: lowercase;  
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 .projects ul li::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -7px;
-    transition: 0.6s;
+  content: "";
+  height: 0.1em;
+  width: 0%;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -0.5em;
+  transition: 0.6s;
   }
   
   .projects ul li:hover::after {
