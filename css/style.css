@@ -31,7 +31,7 @@
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 18px;
 }
 
@@ -52,7 +52,7 @@
 
 .content {
   color: white;
-  text-transform: uppercase;
+  text-transform: lowercase;  
   width: 100%;
   position: absolute;
   top: 50%;
@@ -91,7 +91,7 @@
   display: inline-block;
   left: 110px;
   color: rgb(241, 53, 53);
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 25px;
 }
 
@@ -118,7 +118,7 @@
 .projectlinks ul li a {
   text-decoration: none;
   color: darkgray;
-  text-transform: uppercase;
+  text-transform: lowercase;  
   font-size: 18px;
 }
 
