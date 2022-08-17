@@ -25,7 +25,7 @@
   display: inline-block;
   margin-left: 45px;
   position: relative;
-  left: 550px;
+  left: 475px;
 }
 
 .navbar ul li a {
@@ -69,28 +69,35 @@
 
 .content h1 {
   position: relative;
-  bottom: 165px;
+  bottom: 170px;
   font-size: 90px;
   color: rgb(97, 160, 243);
 }
 
 .content h3 {
   position: relative;
-  bottom: 150px;
+  bottom: 160px;
   font-size: 17px;
   color: rgb(90, 166, 90);
 }
 
-.content h4 {
+.projecttitle {
   position: relative;
-  top: 90px;
-  color: rgb(245, 48, 48);
+  top: 470px;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+  display: inline-block;
+  left: 110px;
+  color: rgb(241, 53, 53);
+  text-transform: uppercase;
   font-size: 25px;
 }
 
 .projects {
   position: relative;
-  top: 500px;
+  top: 480px;
   width: 85%;
   margin: auto;
   justify-content: space-between;
@@ -104,7 +111,7 @@
   margin-left: 100px;
   position: relative;
   left: 65px;
-  top: 60px;
+  top: 35px;
   
 }
 
