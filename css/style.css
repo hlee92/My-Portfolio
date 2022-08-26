@@ -2,14 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-}
-
-.bg {
-  background: url(../images/background3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-color: #121212;
 }
 
 .navbar {
@@ -25,7 +18,7 @@
   display: inline-block;
   margin-left: 3em;
   position: relative;
-  left: 29em;
+  left: 33em;
 }
 
 .navbar ul li a {
@@ -40,7 +33,6 @@
   height: 0.1em;
   width: 0%;
   background: white;
-  position: absolute;
   left: 0;
   bottom: -0.5em;
   transition: 0.6s;
@@ -50,40 +42,39 @@
   width: 100%;
 }
 
+.image {
+  top: 40%;
+  text-align: center;
+  left: 5em;
+}
+
 .content {
   color: white;
-  text-transform: lowercase;  
+  text-transform: lowercase;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
 }
 
 .content h2 {
   position: relative;
-  bottom: 7.5em;
   font-size: 26px;
   color: rgb(243, 243, 160);
 }
 
 .content h1 {
   position: relative;
-  bottom: 2.1em;
   font-size: 5.5em;
   color: rgb(97, 160, 243);
 }
 
 .content h3 {
   position: relative;
-  bottom: 9.5em;
   font-size: 1.1em;
   color: rgb(90, 166, 90);
 }
 
 .projecttitle {
   position: relative;
-  top: 19em;
   width: 85%;
   margin: auto;
   justify-content: space-between;
@@ -97,7 +88,6 @@
 
 .projects {
   position: relative;
-  top: 30em;
   width: 85%;
   margin: auto;
   justify-content: space-between;
@@ -112,13 +102,12 @@
   position: relative;
   left: 3.5em;
   top: 2em;
-  
 }
 
 .projectlinks ul li a {
   text-decoration: none;
   color: darkgray;
-  text-transform: lowercase;  
+  text-transform: lowercase;
   font-size: 1.5em;
 }
 
@@ -127,12 +116,11 @@
   height: 0.1em;
   width: 0%;
   background: white;
-  position: absolute;
   left: 0;
   bottom: -0.5em;
   transition: 0.6s;
-  }
-  
-  .projects ul li:hover::after {
-    width: 100%;
-  }
+}
+
+.projects ul li:hover::after {
+  width: 100%;
+}
