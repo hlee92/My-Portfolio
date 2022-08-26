@@ -33,6 +33,7 @@
   height: 0.1em;
   width: 0%;
   background: white;
+  position: absolute;
   left: 0;
   bottom: -0.5em;
   transition: 0.6s;
@@ -118,6 +119,7 @@
   background: white;
   left: 0;
   bottom: -0.5em;
+  position: absolute;
   transition: 0.6s;
 }
 
